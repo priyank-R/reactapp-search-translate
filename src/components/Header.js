@@ -1,19 +1,20 @@
 import React from "react";
+import Link from './Link'
 
 const Header = () => {
   return (
     <div className="ui secondary pointing menu">
-      <a href="/" className="item">
+      <Link href="/" className="item">
         Accordian
-      </a>
+      </Link>
 
-      <a href="/search" className="item">
+      <Link href="/search" className="item">
         Search
-      </a>
+      </Link>
 
-      <a hef="/translate" className="item">
+      <Link href="/translate" className="item">
         Translate
-      </a>
+      </Link>
     </div>
   );
 };
